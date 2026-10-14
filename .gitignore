@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+.pytest_cache/
+# Large/raw data (keep the folder via .gitkeep)
+data/*.csv
+!data/sample_cars.csv
+# Trained model binaries are rebuilt with `python -m src.train`
+models/*.joblib
